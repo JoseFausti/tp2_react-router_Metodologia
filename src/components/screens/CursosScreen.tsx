@@ -3,7 +3,7 @@ import useFetchCourses from "../../hooks/useFetchCourses"
 
 const CursosScreen = () => {
     
-    const {cursos} = useFetchCourses();
+    const {cursos} = useFetchCourses(); // hook personalizado que obtiene los cursos de la API
 
   return (
     <>
