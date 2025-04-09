@@ -2,8 +2,9 @@ import { Link } from "react-router-dom"
 import useFetchCourses from "../../hooks/useFetchCourses"
 
 const CursoCard = () => {
-    // hook de react-router-dom que permite navegar entre rutas
+
     const {cursos} = useFetchCourses(); // hook personalizado que obtiene los cursos de la API
+    
     return (
         <div>
             {cursos.map((curso)=>{
